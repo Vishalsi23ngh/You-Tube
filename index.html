@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js" defer></script>
+</head>
+<body>
+    <!-- navigation bar ---> 
+   <nav class="navbar">
+    <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <a href="index.html"> 
+        <img src="img/logo.PNG" class="logo" alt="">
+    </a>
+    
+    <div class="search-box">
+        <input type="text" class="search-bar" placeholder="search your videos">
+        <button class="search-btn">
+            <img src="img/search.PNG" alt="search icon">
+        </button>
+    </div>
+    <div class="user-options">
+        <img src="img/video.PNG" class="icon" alt="create-video-icon">
+        <img src="img/grid.PNG" class="icon" alt="create-grid-icon">
+        <img src="img/bell.PNG" class="icon" alt="create-bell-icon">
+        <div class="user-dp">
+            <img src="img/profile-pic.png" alt="">
+        </div>
+    </div>
+   </nav>
+
+ <!-- Sidebar -->
+<div class="sidebar">
+    <a href="#" class="links active"><img src="img/home.PNG" alt="home icon"> Home</a>
+    <a href="#" class="links explore-btn"><img src="img/explore.PNG" alt="explore icon"> Explore</a> <!-- Explore button -->
+    <a href="#" class="links"><img src="img/subscription.PNG" alt="subscription icon">Subscription</a>
+    <a href="#" class="links"><img src="img/library.PNG" alt="library icon">Library</a>
+    <a href="#" class="links"><img src="img/history.PNG" alt="history icon">History</a>
+    <a href="#" class="links"><img src="img/watch-later.PNG" alt="watch-later icon">Watch later</a>
+    <a href="#" class="links"><img src="img/liked video.PNG" alt="Liked icon">Liked video</a>
+    <a href="#" class="links"><img src="img/show more.PNG" alt="show more icon">Show more</a>
+  </div>
+  
+  
+<!-- filters -->
+<div class="filters">
+    <div class="filter-option active" data-category="All">All</div>
+    <div class="filter-option" data-category="JavaScript">JavaScript</div>
+    <div class="filter-option" data-category="React">React</div>
+    <div class="filter-option" data-category="HTML">HTML</div>
+  </div>
+  
+<!-- Video- container -->
+   <div class="video-container"></div>
+
+
+
+</body>
+</html>
